@@ -1,0 +1,35 @@
+{
+  "name": "ask-constants",
+  "version": "0.0.1",
+  "description": "Exports important Alexa Skills Kit strings.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "rm -rf dist/* && tsc",
+    "test": "mocha -r ts-node/register test/test*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidpaulhunt/ask-constants.git"
+  },
+  "keywords": [
+    "Alexa",
+    "ASK"
+  ],
+  "author": "David Hunt <davidpaulhunt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidpaulhunt/ask-constants/issues"
+  },
+  "homepage": "https://github.com/davidpaulhunt/ask-constants#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.10.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "prettier": "^1.16.4",
+    "ts-node": "^8.0.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3333"
+  }
+}

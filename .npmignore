@@ -1,0 +1,9 @@
+.prettierignore
+.prettierrc
+doc/
+src/
+node_modules/
+test/
+package-lock.json
+tsconfig.json
+tslint.json
